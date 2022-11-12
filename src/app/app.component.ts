@@ -7,7 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TP2';
-  changeColor = () => {
-
-  }
+  image = "";
 }

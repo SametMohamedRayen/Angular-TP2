@@ -11,7 +11,7 @@ import { RainbowSimulatorDirective } from './rainbow-simulator.directive';
   declarations: [
     AppComponent,
     MiniWordComponent,
-    RainbowSimulatorDirective
+    RainbowSimulatorDirective,
   ],
   imports: [
     BrowserModule,
