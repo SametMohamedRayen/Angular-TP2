@@ -1,0 +1,9 @@
+<p [style.color]="color" [style.font-size]="size+'px'"  [style.font-family]="fontFamily">Test</p>
+<span>
+  <input type="color" name="color" [(ngModel)]="color">
+  <input type="number" name="size" [(ngModel)]="size">
+  <select id="fonts" name="fonts" [(ngModel)]="fontFamily">
+    <option value="Arial, Helvetica, sans-serif">Arial</option>
+    <option value='"Times New Roman", Times, serif'>Times New Roman</option>
+  </select>
+</span>
